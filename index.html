@@ -73,6 +73,29 @@
           </select>
         </div>
       </form>
+      <div class="form-group">
+        <div style="margin-bottom: 10px; margin-top: 20px;" class="container">
+          <img style="width: 40px;" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/camera_1f4f7.png"> &nbsp;
+          <p style="display: inline; font-size: 24px; vertical-align: middle;">Image</p>
+        </div>
+          <div class="input-group">
+              <span class="input-group-btn">
+                <span class="btn btn-secondary btn-default btn-file">
+                  <img style="width: 20px;" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/file-folder_1f4c1.png">
+                  &nbsp;
+                  <p style="display: inline; vertical-align: middle;">Browse...</p>
+                  <input type="file" id="imgInp">
+                </span>
+              </span>
+              <input type="text" class="form-control" readonly>
+          </div>
+          <img style="margin-top: 15px;" id='img-upload'/>
+      </div>
+      <div style="margin-bottom: 40px;">
+        <button type="button" class="btn btn-primary">Post to Twitter</button>
+        <button type="button" class="btn btn-primary">Post to Facebook</button>
+        <button type="button" class="btn btn-primary">Post to Instagram</button>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -83,5 +106,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap Select -->
     <script src="js/bootstrap-select.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
   </body>
 </html>
