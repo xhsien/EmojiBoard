@@ -20,56 +20,56 @@
 
       <form class="row" style="margin-top: 30px;">
         <div class="col form-group">
-          <select class="selectpicker">
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/man-and-woman-holding-hands_1f46b.png'>&nbsp;&nbsp;&nbsp; Friends..."></option>
-            <option data-content="<img style='width: 50px;' src='https://storage.qoo-app.com/game/9473/eXuih9Tv7NJZQNClbY6r0ihmWGKa0YzG.jpg'>&nbsp;&nbsp;&nbsp; Doraemon">1</option>
-            <option data-content="<img style='width: 50px;' src='https://pbs.twimg.com/profile_images/1238461182144438272/9Dji9PpW_bigger.jpg'>&nbsp;&nbsp;&nbsp; Nobita">2</option>
-            <option data-content="<img style='width: 50px;' src='https://pbs.twimg.com/profile_images/1238479573362208770/-DjzNfWV_bigger.jpg'>&nbsp;&nbsp;&nbsp; Shizuka">3</option>
+          <img style="width: 30px;" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/man-and-woman-holding-hands_1f46b.png">
+          <select id="friends" style="width: 200px;" class="selectpicker" multiple data-selected-text-format="count">
+            <option value="Doraemon" data-content="<img style='width: 50px;' src='https://storage.qoo-app.com/game/9473/eXuih9Tv7NJZQNClbY6r0ihmWGKa0YzG.jpg'>&nbsp;&nbsp;&nbsp; Doraemon">1</option>
+            <option value="Nobita" data-content="<img style='width: 50px;' src='https://pbs.twimg.com/profile_images/1238461182144438272/9Dji9PpW_bigger.jpg'>&nbsp;&nbsp;&nbsp; Nobita">2</option>
+            <option value="Shizuka" data-content="<img style='width: 50px;' src='https://pbs.twimg.com/profile_images/1238479573362208770/-DjzNfWV_bigger.jpg'>&nbsp;&nbsp;&nbsp; Shizuka">3</option>
           </select>
         </div>
         <div class="col form-group">
-          <select class="selectpicker">
+          <select id="mood" class="selectpicker">
             <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/grinning-face_1f600.png'>&nbsp;&nbsp;&nbsp; Mood..."></option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/grinning-face_1f600.png'>&nbsp;&nbsp;&nbsp; Happy">1</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-open-mouth-and-tightly-closed-eyes_1f606.png'>&nbsp;&nbsp;&nbsp; Excited">2</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-smiling-eyes-and-three-hearts_1f970.png'>&nbsp;&nbsp;&nbsp; Love">3</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/face-savouring-delicious-food_1f60b.png'>&nbsp;&nbsp;&nbsp; Tasty">4</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/thinking-face_1f914.png'>&nbsp;&nbsp;&nbsp; Thinking">5</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/grinning-face-with-one-large-and-one-small-eye_1f92a.png'>&nbsp;&nbsp;&nbsp; Silly">6</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/sleeping-face_1f634.png'>&nbsp;&nbsp;&nbsp; Sleepy">7</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/slightly-frowning-face_1f641.png'>&nbsp;&nbsp;&nbsp; Sad">8</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/hushed-face_1f62f.png'>&nbsp;&nbsp;&nbsp; Surprised">9</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/face-screaming-in-fear_1f631.png'>&nbsp;&nbsp;&nbsp; Scared">10</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/pouting-face_1f621.png'>&nbsp;&nbsp;&nbsp; Angry">11</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/flushed-face_1f633.png'>&nbsp;&nbsp;&nbsp; Embarrased">12</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/loudly-crying-face_1f62d.png'>&nbsp;&nbsp;&nbsp; Cry">13</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-sunglasses_1f60e.png'>&nbsp;&nbsp;&nbsp; Cool">14</option>
+            <option value="happy" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/grinning-face_1f600.png'>&nbsp;&nbsp;&nbsp; Happy">1</option>
+            <option value="excited" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-open-mouth-and-tightly-closed-eyes_1f606.png'>&nbsp;&nbsp;&nbsp; Excited">2</option>
+            <option value="loved" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-smiling-eyes-and-three-hearts_1f970.png'>&nbsp;&nbsp;&nbsp; Love">3</option>
+            <!-- <option value="" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/face-savouring-delicious-food_1f60b.png'>&nbsp;&nbsp;&nbsp; Tasty">4</option> -->
+            <option value="confused" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/thinking-face_1f914.png'>&nbsp;&nbsp;&nbsp; Confused">5</option>
+            <option value="silly" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/grinning-face-with-one-large-and-one-small-eye_1f92a.png'>&nbsp;&nbsp;&nbsp; Silly">6</option>
+            <option value="sleepy" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/sleeping-face_1f634.png'>&nbsp;&nbsp;&nbsp; Sleepy">7</option>
+            <option value="sad" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/slightly-frowning-face_1f641.png'>&nbsp;&nbsp;&nbsp; Sad">8</option>
+            <option value="surprised" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/hushed-face_1f62f.png'>&nbsp;&nbsp;&nbsp; Surprised">9</option>
+            <option value="scared" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/face-screaming-in-fear_1f631.png'>&nbsp;&nbsp;&nbsp; Scared">10</option>
+            <option value="angry" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/pouting-face_1f621.png'>&nbsp;&nbsp;&nbsp; Angry">11</option>
+            <option value="embarrased" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/flushed-face_1f633.png'>&nbsp;&nbsp;&nbsp; Embarrased">12</option>
+            <option value="embarrased" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/loudly-crying-face_1f62d.png'>&nbsp;&nbsp;&nbsp; Cry">13</option>
+            <option value="cool" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/smiling-face-with-sunglasses_1f60e.png'>&nbsp;&nbsp;&nbsp; Cool">14</option>
           </select>
         </div>
         <div class="col form-group">
-          <select class="selectpicker">
+          <select id="time" class="selectpicker">
             <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/alarm-clock_23f0.png'>&nbsp;&nbsp;&nbsp; Time..."></option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/leftwards-black-arrow_2b05.png'>&nbsp;&nbsp;&nbsp; Past">1</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/downwards-black-arrow_2b07.png'>&nbsp;&nbsp;&nbsp; Now">2</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/black-rightwards-arrow_27a1.png'>&nbsp;&nbsp;&nbsp; Future">3</option>
+            <option value="past" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/leftwards-black-arrow_2b05.png'>&nbsp;&nbsp;&nbsp; Past">1</option>
+            <option value="now" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/downwards-black-arrow_2b07.png'>&nbsp;&nbsp;&nbsp; Now">2</option>
+            <option value="future" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/black-rightwards-arrow_27a1.png'>&nbsp;&nbsp;&nbsp; Future">3</option>
           </select>
         </div>
         <div class="col form-group">
-          <select class="selectpicker">
+          <select id="activity" class="selectpicker">
             <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/soccer-ball_26bd.png'>&nbsp;&nbsp;&nbsp; Activity..."></option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/fork-and-knife-with-plate_1f37d.png'>&nbsp;&nbsp;&nbsp; Eat">1</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/runner_emoji-modifier-fitzpatrick-type-4_1f3c3-1f3fd_1f3fd.png'>&nbsp;&nbsp;&nbsp; Run">2</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/dancer_emoji-modifier-fitzpatrick-type-1-2_1f483-1f3fb_1f3fb.png'>&nbsp;&nbsp;&nbsp; Dance">3</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/man-swimming-type-1-2_1f3ca-1f3fb-200d-2642-fe0f.png'>&nbsp;&nbsp;&nbsp; Swim">4</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/woman-biking-type-4_1f6b4-1f3fd-200d-2640-fe0f.png'>&nbsp;&nbsp;&nbsp; Cycle">5</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/basketball-and-hoop_1f3c0.png'>&nbsp;&nbsp;&nbsp; Basketball">6</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/badminton-racquet-and-shuttlecock_1f3f8.png'>&nbsp;&nbsp;&nbsp; Badminton">7</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/microphone_1f3a4.png'>&nbsp;&nbsp;&nbsp; Karaoke">8</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/film-frames_1f39e.png'>&nbsp;&nbsp;&nbsp; Movie">9</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/shopping-trolley_1f6d2.png'>&nbsp;&nbsp;&nbsp; Shop">10</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/party-popper_1f389.png'>&nbsp;&nbsp;&nbsp; Party">11</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/blue-book_1f4d8.png'>&nbsp;&nbsp;&nbsp; Read">12</option>
-            <option data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/video-game_1f3ae.png'>&nbsp;&nbsp;&nbsp; Game">13</option>
+            <option value="eat" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/fork-and-knife-with-plate_1f37d.png'>&nbsp;&nbsp;&nbsp; Eat">1</option>
+            <option value="run" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/runner_emoji-modifier-fitzpatrick-type-4_1f3c3-1f3fd_1f3fd.png'>&nbsp;&nbsp;&nbsp; Run">2</option>
+            <option value="dance" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/dancer_emoji-modifier-fitzpatrick-type-1-2_1f483-1f3fb_1f3fb.png'>&nbsp;&nbsp;&nbsp; Dance">3</option>
+            <option value="swim" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/man-swimming-type-1-2_1f3ca-1f3fb-200d-2642-fe0f.png'>&nbsp;&nbsp;&nbsp; Swim">4</option>
+            <option value="cycle" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/woman-biking-type-4_1f6b4-1f3fd-200d-2640-fe0f.png'>&nbsp;&nbsp;&nbsp; Cycle">5</option>
+            <option value="basketball" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/basketball-and-hoop_1f3c0.png'>&nbsp;&nbsp;&nbsp; Basketball">6</option>
+            <option value="" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/badminton-racquet-and-shuttlecock_1f3f8.png'>&nbsp;&nbsp;&nbsp; Badminton">7</option>
+            <option value="karaoke" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/microphone_1f3a4.png'>&nbsp;&nbsp;&nbsp; Karaoke">8</option>
+            <option value="movie" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/film-frames_1f39e.png'>&nbsp;&nbsp;&nbsp; Movie">9</option>
+            <option value="shop" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/shopping-trolley_1f6d2.png'>&nbsp;&nbsp;&nbsp; Shop">10</option>
+            <option value="party" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/party-popper_1f389.png'>&nbsp;&nbsp;&nbsp; Party">11</option>
+            <option value="read" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/blue-book_1f4d8.png'>&nbsp;&nbsp;&nbsp; Read">12</option>
+            <option value="game" data-content="<img style='width: 50px;' src='https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/twitter/236/video-game_1f3ae.png'>&nbsp;&nbsp;&nbsp; Game">13</option>
           </select>
         </div>
       </form>
@@ -92,9 +92,9 @@
           <img style="margin-top: 15px;" id='img-upload'/>
       </div>
       <div style="margin-bottom: 40px;">
-        <button type="button" class="btn btn-primary">Post to Twitter</button>
-        <button type="button" class="btn btn-primary">Post to Facebook</button>
-        <button type="button" class="btn btn-primary">Post to Instagram</button>
+        <button type="button" class="btn btn-primary" onclick="test()">Post to Twitter</button>
+        <button type="button" class="btn btn-primary" onclick="test()">Post to Facebook</button>
+        <button type="button" class="btn btn-primary" onclick="test()">Post to Instagram</button>
       </div>
     </div>
 
@@ -108,5 +108,7 @@
     <script src="js/bootstrap-select.min.js"></script>
     <!-- Main -->
     <script src="js/main.js"></script>
+    <!-- Generate sentence -->
+    <script src="js/sentence.js"></script>
   </body>
 </html>
